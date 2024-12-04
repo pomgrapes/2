@@ -1,0 +1,26 @@
+#cd ~/Downloads
+
+#wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/test2/host_info_t2.zip#
+   
+#unzip host_info_t2.zip#
+
+   
+
+#scp ./host_info_t2.sh root@10.1.1.20:.#
+scp ./s02part2.sh root@10.1.1.20:.
+scp ./s02part4.sh root@10.1.1.20:.
+scp ./s01part1.sh root@10.1.1.20:.
+scp ./s01part3.sh root@10.1.1.20:.
+
+
+##S02 part4##
+
+logger -p authpriv.info "Test message from s02"
+
+
+
+
+
+
+#### ./host_info_t2.sh///////##
+##scp root@10.1.1.20:/root/s01_report_t2.html /home/alice/Desktop/ #
